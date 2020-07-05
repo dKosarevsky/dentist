@@ -5,6 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name="home"),
+    path('contact.html', views.contact, name="contact"),
 ]
 
 # {% static 'website/css/style.css' %}
