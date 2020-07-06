@@ -112,3 +112,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+# Email settings
+# https://myaccount.google.com/u/2/lesssecureapps
+# https://accounts.google.com/DisplayUnlockCaptcha
+# https://myaccount.google.com/u/2/apppasswords
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_HOST_USER = 'dkosarevsky.mtt@gmail.com'
+EMAIL_HOST_PASSWORD = 'mmstaxbjvnrfyctm'
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
