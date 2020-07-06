@@ -13,7 +13,9 @@ SECRET_KEY = 'oo+^l)g3s!f*4m01oj$giq%sv(0azzjsrq&76^(rvd@4+b)r(o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'chikibamboni.pythonanywhere.com',
+]
 
 
 # Application definition
