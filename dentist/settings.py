@@ -14,6 +14,7 @@ SECRET_KEY = 'oo+^l)g3s!f*4m01oj$giq%sv(0azzjsrq&76^(rvd@4+b)r(o'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'chikibamboni.pythonanywhere.com',
 ]
 
@@ -116,11 +117,11 @@ STATICFILES_DIRS = [
 ]
 
 # Email settings
-# https://myaccount.google.com/u/2/lesssecureapps
+# https://myaccount.google.com/lesssecureapps
 # https://accounts.google.com/DisplayUnlockCaptcha
-# https://myaccount.google.com/u/2/apppasswords
+# https://myaccount.google.com/apppasswords
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = '587'
+EMAIL_PORT = 587
 EMAIL_HOST_USER = 'dkosarevsky.mtt@gmail.com'
 EMAIL_HOST_PASSWORD = 'mmstaxbjvnrfyctm'
 EMAIL_USE_TLS = True
