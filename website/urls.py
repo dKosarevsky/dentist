@@ -11,6 +11,7 @@ urlpatterns = [
     path('blog-details.html', views.blog_details, name="blog-details"),
     path('pricing.html', views.pricing, name="pricing"),
     path('service.html', views.service, name="service"),
+    path('appointment.html', views.appointment, name="appointment"),
 ]
 
 # {% static 'website/css/style.css' %}
