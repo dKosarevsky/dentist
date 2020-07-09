@@ -1,1 +1,1 @@
-simple site on Django https://www.pythonanywhere.com/
+simple site on Django http://chikibamboni.pythonanywhere.com/
